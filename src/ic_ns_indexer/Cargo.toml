@@ -1,5 +1,5 @@
 [package]
-name = "ic_ns_backend"
+name = "ic_ns_indexer"
 version = "0.1.0"
 edition = "2021"
 

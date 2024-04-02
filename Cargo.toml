@@ -1,5 +1,3 @@
 [workspace]
-members = [
-    "src/ic_ns_backend"
-]
+members = ["src/ic_ns_indexer"]
 resolver = "2"

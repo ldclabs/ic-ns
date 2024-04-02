@@ -1,0 +1,20 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* https://www.skeleton.dev/components/app-shell */
+html,
+body {
+  @apply h-full overflow-hidden;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: url('/_assets/images/universe.webp') rgb(0, 47, 167) center top
+    repeat fixed;
+  color: rgb(255 255 255);
+}

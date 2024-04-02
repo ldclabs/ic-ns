@@ -1,17 +1,15 @@
 {
   "canisters": {
-    "ic_ns_backend": {
-      "candid": "src/ic_ns_backend/ic_ns_backend.did",
+    "ic_ns_indexer": {
+      "candid": "src/ic_ns_indexer/ic_ns_indexer.did",
       "declarations": {
         "node_compatibility": true
       },
-      "package": "ic_ns_backend",
+      "package": "ic_ns_indexer",
       "type": "rust"
     },
     "ic_ns_frontend": {
-      "dependencies": [
-        "ic_ns_backend"
-      ],
+      "dependencies": [],
       "source": [
         "src/ic_ns_frontend/dist"
       ],
