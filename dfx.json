@@ -1,0 +1,30 @@
+{
+  "canisters": {
+    "ic_ns_backend": {
+      "candid": "src/ic_ns_backend/ic_ns_backend.did",
+      "declarations": {
+        "node_compatibility": true
+      },
+      "package": "ic_ns_backend",
+      "type": "rust"
+    },
+    "ic_ns_frontend": {
+      "dependencies": [
+        "ic_ns_backend"
+      ],
+      "source": [
+        "src/ic_ns_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "ic_ns_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
